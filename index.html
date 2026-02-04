@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liberauto San Luis | Escuela de Conductores</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(180deg, #c80000, #a40000);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.4rem;
+      font-weight: bold;
+    }
+    header h2 {
+      margin-top: 10px;
+      font-size: 1.3rem;
+      font-weight: normal;
+    }
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      align-items: center;
+    }
+    .hero img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+    .hero ul {
+      list-style: none;
+      padding: 0;
+    }
+    .hero li {
+      margin-bottom: 14px;
+      font-size: 1.05rem;
+    }
+    .hero li::before {
+      content: '✔ ';
+      color: #c80000;
+      font-weight: bold;
+    }
+    .cta {
+      background: #0f9d58;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .cta h3 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+    .cta a {
+      display: inline-block;
+      margin-top: 15px;
+      background: white;
+      color: #0f9d58;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 800px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>¡Aprendé a manejar y sacá el registro!</h1>
+  <h2>Escuela de conductores Liberauto · San Luis</h2>
+</header>
+
+<section class="hero">
+  <img src="liberauto.jpg" alt="Auto de Liberauto" />
+  <div>
+    <h2>Clases particulares en Merlo (San Luis)</h2>
+    <ul>
+      <li>Desde cero o nivel intermedio</li>
+      <li>Preparación completa para obtener el registro</li>
+      <li>Clases prácticas y teóricas</li>
+      <li>Acompañamiento personalizado</li>
+      <li>Ideal para quienes quieren aprender con confianza</li>
+    </ul>
+  </div>
+</section>
+
+<section class="cta">
+  <h3>Consultá hoy mismo</h3>
+  <p>Respondemos rápido por WhatsApp</p>
+  <a href="https://wa.me/5491132905739" target="_blank">💬 Contactar por WhatsApp</a>
+</section>
+
+<footer>
+  © Liberauto San Luis · Escuela de Conductores
+</footer>
+
+</body>
+</html>
